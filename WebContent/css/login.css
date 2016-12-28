@@ -1,0 +1,188 @@
+@CHARSET "UTF-8";
+
+/* ------- Remove Chrome's border around active fields ------- */
+
+*:focus {
+	outline: none;
+}
+
+/* ------- Disable background and border for input fields ------- */
+
+input {
+	background: transparent;
+	border: 0;
+}
+
+
+/* --------------------------------------------------------------- */
+
+/* ------- Body ------- */
+
+body {
+	background:url(../images/index.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment：scroll;
+    font-family: 'Arima Madurai', cursive;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	color: #5d4b33;
+}
+
+
+
+/* ------- Container ------- */
+
+#container {
+	margin: auto;
+	margin-top: 130px;
+	width: 700px;
+	height: 300px;
+	text-align: left;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 20px;		
+}
+
+
+/* ------- Login Form ------- */
+
+form {
+	width: 700px;
+	height: 262px;
+	padding-top: 1px;
+}
+
+.login {
+	width: 500px;
+	float: left;
+	margin-top: 33px;
+	margin-left: 40px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size:55px;
+	letter-spacing:2px;
+}
+
+.username-text {
+	width: 190px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.password-text {
+	width: 290px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+
+.username-field {
+	width: 180px;
+	height: 40px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 35px;
+	background: url(../images/username-field.png) center left no-repeat;
+}
+
+.username-field:hover {
+	background: url(../images/username-field-hover.png) center left no-repeat;
+}
+
+.password-field {
+	width: 350px;
+	height: 40px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 30px;
+	background: url(../images/password-field.png) center left no-repeat;
+}
+
+.password-field:hover {
+	background: url(../images/password-field-hover.png) center left no-repeat;	
+}
+
+
+/* ------- input框中黑色钥匙图标 ------- */
+input[type="text"], input[type="password"] {
+	width: 120px;
+	height: 22px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 16px;
+	color: #2d2d2d;
+}
+
+
+.submit{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 18px;
+	width: 100px;
+    height:40px ;
+    color: #3e5706;
+    background: #a5cd4e;
+	margin-top: 45px;
+	margin-left: 40px;
+	display: inline-block;
+    float: left;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,22);
+}
+.reset{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 18px;
+    width: 100px;
+    height:40px ;
+    color: #19667d;
+    background: #70c9e3;
+    display: inline-block;
+    float: left;
+    margin-top: 45px;
+	margin-left: 35px;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+}
+
+ul{
+	margin-top: 360px;
+	list-style: none;
+}
+li{
+	padding-bottom:12px;
+}
+#gast{
+	background:url(../images/chef-1.png) ;
+	background-repeat:no-repeat;	
+}
+#zurueck{
+	background:url(../images/back	.png) ;
+	background-repeat:no-repeat;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    background-color: transparent;
+    color: #5d4b33;
+    font-size: 22px;
+    font-weight: 800;
+    margin-left:2.5em;
+   
+}
+a:hover {
+    color: #f07818;
+    text-decoration: none;
+}
+
+

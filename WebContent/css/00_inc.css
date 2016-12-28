@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+
+
+table{
+	font-size:22px;
+}
+
+/* 标题 Cake Event*/
+h2{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:55px;
+	font-weight:normal;
+	letter-spacing:2px;
+	text-align:center;	
+}
+
+/* button abmelden*/
+.abmelden{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 18px;
+    width: 100px;
+    height:40px ;
+    color: #cfd5ad;
+    background: #996633;
+    display: inline-block;
+    margin: 10px;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+}
+

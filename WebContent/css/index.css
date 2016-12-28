@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+body{
+background:url(../images/index.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+
+}
+.banner h2{
+	font-family: 'Averia Sans Libre', cursive;
+	font-size:4em;
+	text-align:left;
+	color: #5d4b33;
+}
+.banner p{
+	font-family: 'Averia Sans Libre', cursive;
+	color: #fb7435;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 4em 0 4em;
+}
+
+.banner a {
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    font-family: 'Averia Sans Libre', cursive;
+    text-decoration: none;
+    background-color: transparent;
+    border: 7px solid #5d4b33;
+    color: #5d4b33;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 0.5em 3em;
+  
+}
+.banner a:hover {
+    border-color: #f07818;
+    color: #f07818;
+    text-decoration: none;
+}
+
+.banner .container {
+    margin-left: 65px;
+    margin-top:10em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+}
+

@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+body{
+background:url(../images/index.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+font-family: 'Arima Madurai', cursive;
+color: #5d4b33;
+}
+
+#container {
+	margin: auto;
+	margin-top: 170px;
+	width: 700px;
+	height: 450px;
+	text-align: left;
+	font-family: 'Arima Madurai', cursive;	
+}
+
+
+.welcome-user {
+	font-family: 'Fredericka the Great', cursive;
+	font-size:55px;
+	letter-spacing:2px;
+	margin-bottom:45px;
+}
+
+
+ul{
+	 list-style:none; 
+}
+#cake{
+	background:url(../images/cake.png) ;
+	background-repeat:no-repeat;
+	height:65px;
+}
+#donut{
+	background:url(../images/donut.png) ;
+	background-repeat:no-repeat;
+	height:65px;
+}
+	
+
+
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    background-color: transparent;
+    color: #5d4b33;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top:-55px;
+    padding-left:2em;
+}
+a:hover {
+    color: #f07818;
+    text-decoration: none;
+}
+

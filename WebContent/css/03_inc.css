@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+h3{
+	font-family: 'Arima Madurai', cursive;
+}
+.zurueck {
+	font-family: 'Arima Madurai', cursive;
+	font-size: 19px;
+	font-weight:bold;
+	width: 120px;
+    height:40px ;
+    color: #fb740d;
+    background: #ffe546;
+	margin-top: 45px;
+	margin-left: 40px;
+	display: inline-block;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,22);
+}
+.solve {
+	font-family: 'Arima Madurai', cursive;
+	font-size: 19px;
+	font-weight:bold;
+    width: 120px;
+    height:40px ;
+    color: #883d51;
+    background: #e3a1a6;
+    display: inline-block;
+    margin-top: 45px;
+	margin-left: 35px;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+}

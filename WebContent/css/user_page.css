@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+body{
+background:url(../images/index.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+font-family: 'Arima Madurai', cursive;
+}
+a {
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    background-color: transparent;
+    color: #5d4b33;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 0.5em 3em;
+  
+}
+a:hover {
+    color: #f07818;
+    text-decoration: none;
+}
+.nutzer{
+    height:30px ;	
+    border-radius: 10px;
+}
+.submit{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 18px;
+	width: 100px;
+    height:40px ;
+    color: #3e5706;
+    background: #a5cd4e;
+    display: inline-block;
+    margin: 10px;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,22);
+}
+.reset{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 18px;
+    width: 100px;
+    height:40px ;
+    color: #19667d;
+    background: #70c9e3;
+    display: inline-block;
+    margin: 10px;
+    transition: all .15s ease;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+}
+}

@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+body{
+background:url(../images/index.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+font-family: 'Arima Madurai', cursive;
+}
